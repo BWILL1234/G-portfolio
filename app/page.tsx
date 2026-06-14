@@ -122,8 +122,7 @@ export default function BentoPortfolio() {
         {/* Values Card */}
         <div className="md:col-span-4 bg-[#FF7A00] rounded-3xl p-6 flex flex-col">
   <div className="flex justify-between items-start mb-4">
-    <span className="font-bold text-black text-xl">Skills!!</span>
-    <ArrowUpRight size={24} />
+    <span className="font-bold text-black text-xl">Skills!</span>
   </div>
 
   <div className="relative w-full h-48 mb-6 rounded-2xl overflow-hidden">

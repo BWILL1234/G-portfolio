@@ -11,7 +11,7 @@ import {
   MapPin,
   Instagram,
   Linkedin,
-  Twitter,
+  MessageCircle,
 } from "lucide-react";
 
 export default function BentoPortfolio() {
@@ -94,7 +94,11 @@ ${formData.message}
         {/* LEFT PANEL */}
         <div className="lg:col-span-5 bg-[#FF7A00] rounded-3xl p-8 md:p-12 flex flex-col justify-between min-h-[500px]">
           <div>
-            <h1 className="text-6xl font-bold tracking-tighter mb-6">
+            <h1 className="text-6xl font-bold tracking-tighter mb-6"
+            style={{
+                    fontFamily: "Protest Revolution",
+                  }}
+            >
               Lets <br /> Connect.
             </h1>
             <p className="text-xl font-medium max-w-xs leading-relaxed">
@@ -137,9 +141,14 @@ ${formData.message}
             >
               <Linkedin size={20} />
             </a>
-            <a href="#" className="bg-black text-white p-4 rounded-2xl">
-              <Twitter size={20} />
-            </a>
+             <a
+  href="https://wa.me/2349026842961"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-black text-white p-4 rounded-2xl hover:bg-[#25D366] transition-colors duration-300"
+>
+  <MessageCircle size={20} />
+</a>
           </div>
         </div>
 

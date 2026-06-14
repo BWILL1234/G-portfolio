@@ -79,7 +79,11 @@ export default function BentoPortfolio() {
           <p className="text-xs tracking-widest mb-4 opacity-70">
             ABOUT ME
           </p>
-          <h1 className="text-5xl md:text-6xl font-semibold leading-tight mb-6">
+          <h1 className="text-5xl md:text-6xl font-semibold leading-tight mb-6"
+          style={{
+                    fontFamily: "Protest Revolution",
+                  }}
+          >
             I Create <br /> Digital <br /> Future.
           </h1>
           <p className="text-lg leading-relaxed max-w-xl">
@@ -109,6 +113,17 @@ export default function BentoPortfolio() {
               <span>Senior UIUX Designer — Adioo</span>
               <span>2024 – Present</span>
             </li>
+
+            <li className="flex justify-between border-b border-black/20 pb-3">
+              <span>Senior UIUX Designer — Blivap</span>
+              <span>Frelance</span>
+            </li>
+            
+            <li className="flex justify-between border-b border-black/20 pb-3">
+              <span>Senior UIUX Designer — Medxverse</span>
+              <span>Frelance</span>
+            </li>
+
           </ul>
         </div>
 
@@ -133,6 +148,7 @@ export default function BentoPortfolio() {
             { name: "Branding", level: "60%" },
             { name: "Product Design", level: "80%" },
             { name: "Design Systems", level: "85%" },
+            { name: "Digital Marketing", level: "60%" },
           ].map((skill) => (
             <div key={skill.name}>
               <div className="flex justify-between text-sm mb-2">
