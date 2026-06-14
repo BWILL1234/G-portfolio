@@ -8,6 +8,7 @@ import {
   Instagram,
   Linkedin,
   Twitter,
+  MessageCircle,
   Menu,
   X,
 } from "lucide-react";
@@ -95,7 +96,7 @@ export default function BentoPortfolio() {
           </div>
           <h2 className="text-5xl md:text-6xl font-semibold text-black leading-tight"
            style={{
-                    fontFamily: "Bricolage Grotesque",
+                    fontFamily: "Protest Revolution",
                   }}
           > 
            
@@ -121,12 +122,12 @@ export default function BentoPortfolio() {
         {/* Values Card */}
         <div className="md:col-span-4 bg-[#FF7A00] rounded-3xl p-6 flex flex-col">
   <div className="flex justify-between items-start mb-4">
-    <span className="font-bold text-black text-xl">Me!!</span>
+    <span className="font-bold text-black text-xl">Skills!!</span>
     <ArrowUpRight size={24} />
   </div>
 
   <div className="relative w-full h-48 mb-6 rounded-2xl overflow-hidden">
-    <Image src="/luffy.jpg" alt="Profile" fill className="object-cover" />
+    <Image src="/skill6.png" alt="Profile" fill className="object-cover" />
   </div>
 
   {/* Certificates Section */}
@@ -169,7 +170,8 @@ export default function BentoPortfolio() {
 
         {/* Bio Card */}
         <div className="md:col-span-4 bg-[#FF7A00] rounded-3xl p-8 flex flex-col justify-between">
-          <p className="text-lg leading-relaxed text-black font-medium">
+          <p className="text-lg leading-relaxed text-black font-medium"
+          >
             Godswill Ikpeamah is a Senior UI/UX Designer crafting intuitive digital experiences at the intersection of emerging technology and human-centered design. He builds scalable digital solutions that connect users worldwide
           </p>
         </div>
@@ -211,12 +213,15 @@ export default function BentoPortfolio() {
           >
             <Linkedin size={20} />
           </a>
-          <a
-            href="#"
-            className="bg-black text-white p-4 rounded-2xl"
-          >
-            <Twitter size={20} />
-          </a>
+      <a
+  href="https://wa.me/2349026842961"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-black text-white p-4 rounded-2xl hover:bg-[#25D366] transition-colors duration-300"
+>
+  <MessageCircle size={20} />
+</a>
+          
         </div>
       </div>
     </div>

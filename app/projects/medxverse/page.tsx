@@ -22,56 +22,65 @@ export default function MedxverseCaseStudy() {
         
         {/* LEFT CONTENT */}
         <div>
-          <h1 className="text-4xl md:text-5xl lg:text-[56px] font-normal text-[#111111] tracking-tight mb-8">
-            Overview
-          </h1>
+  {/* Overview + Website Link */}
+  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8 gap-4">
+    <h1 className="text-4xl md:text-5xl lg:text-[56px] font-normal text-[#111111] tracking-tight">
+      Overview
+    </h1>
 
-          <p className="space-y-6 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
-            MedxVerse is a digital healthcare platform that connects patients with licensed healthcare 
-            professionals through virtual consultations, appointment scheduling, electronic prescriptions, 
-            and health record management. The platform aims to make quality healthcare more accessible, 
-            affordable, and convenient for users regardless of their location.
-          </p>
+    <a
+      href="https://medxverseapp.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-[#111111] text-white text-sm font-medium hover:bg-[#333333] transition-colors w-fit"
+    >
+      Visit Website ↗
+    </a>
+  </div>
 
-          <p className="space-y-6 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
-            
-          </p>
-           
-          {/* CHALLENGE */}
-          <h2 className="text-4xl md:text-5xl lg:text-[56px] mt-16 font-normal text-[#111111] tracking-tight mb-8">
-            Challenge
-          </h2>
+  <p className="text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
+    MedxVerse is a digital healthcare platform that connects patients with
+    licensed healthcare professionals through virtual consultations,
+    appointment scheduling, electronic prescriptions, and health record
+    management. The platform aims to make quality healthcare more accessible,
+    affordable, and convenient for users regardless of their location.
+  </p>
 
-          <div className="space-y-4 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
-            <p>
-              1. Simplify access to healthcare services through a digital platform..{" "}
-              
-            </p>
+  <p className="mt-6 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
+  </p>
 
-            <p>
-              2. Reduce the friction involved in booking appointments and consulting healthcare professionals.{" "}
-             
-            </p>
+  {/* CHALLENGE */}
+  <h2 className="text-4xl md:text-5xl lg:text-[56px] mt-16 font-normal text-[#111111] tracking-tight mb-8">
+    Challenge
+  </h2>
 
-            <p>
-              3. Build trust when sharing sensitive health information online.{" "}
-              
-            </p>
+  <div className="space-y-4 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
+    <p>
+      1. Simplify access to healthcare services through a digital platform.
+    </p>
 
-            <p>
-              4. Create an intuitive experience for managing consultations, prescriptions, and medical records.{" "}
-              
-            </p>
+    <p>
+      2. Reduce the friction involved in booking appointments and consulting
+      healthcare professionals.
+    </p>
 
-          </div>
+    <p>
+      3. Build trust when sharing sensitive health information online.
+    </p>
 
-          <p className="space-y-6 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
-            <span className="font-bold">Main goal:</span> Design a seamless healthcare experience 
-            that enables users to find doctors, book appointments, attend consultations, receive 
-            prescriptions, and manage their health information in one platform.
-            
-          </p>
-        </div>
+    <p>
+      4. Create an intuitive experience for managing consultations,
+      prescriptions, and medical records.
+    </p>
+  </div>
+
+  <p className="mt-8 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
+    <span className="font-bold">Main goal:</span> Design a seamless healthcare
+    experience that enables users to find doctors, book appointments, attend
+    consultations, receive prescriptions, and manage their health information
+    in one platform.
+  </p>
+</div>
 
         {/* RIGHT PHONE MOCKUP */}
         <div className="relative flex justify-center">

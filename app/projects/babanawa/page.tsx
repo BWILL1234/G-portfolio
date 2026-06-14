@@ -24,49 +24,61 @@ export default function Babanawauniversity() {
 
         {        /* LEFT CONTENT */}
         <div className="pr-0 lg:pr-8">
-          <h1 className="text-4xl md:text-5xl lg:text-[56px] font-normal text-[#111111] tracking-tight mb-8">
-            Overview
-          </h1>
+  {/* Overview + Website Link */}
+  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8 gap-4">
+    <h1 className="text-4xl md:text-5xl lg:text-[56px] font-normal text-[#111111] tracking-tight">
+      Overview
+    </h1>
 
-          <p className="text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
-            Babanawa University is a technology-driven institution committed to
-            delivering quality education and preparing students for the future.
-            However, prospective students and current students need a digital
-            platform that makes discovering programs, applying for admission,
-            accessing academic information, and managing student life simple and
-            intuitive.
-          </p>
+    <a
+      href="https://www.babanawa.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-[#111111] text-white text-sm font-medium hover:bg-[#333333] transition-colors w-fit"
+    >
+      Visit Website ↗
+    </a>
+  </div>
 
-          <p className="mt-6 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
-            This project focuses on designing a modern university website and
-            student portal that streamlines the entire academic journey—from
-            exploring courses to managing classes and tracking academic progress.
-            I also designed administrative portals for admissions, student
-            management, finance, faculty, and other university operations.
-          </p>
+  <p className="text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
+    Babanawa University is a technology-driven institution committed to
+    delivering quality education and preparing students for the future.
+    However, prospective students and current students need a digital
+    platform that makes discovering programs, applying for admission,
+    accessing academic information, and managing student life simple and
+    intuitive.
+  </p>
 
-          {          /* CHALLENGE */}
-          <h2 className="text-4xl md:text-5xl lg:text-[56px] mt-16 mb-8 font-normal text-[#111111] tracking-tight">
-            Challenge
-          </h2>
+  <p className="mt-6 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
+    This project focuses on designing a modern university website and
+    student portal that streamlines the entire academic journey—from
+    exploring courses to managing classes and tracking academic progress.
+    I also designed administrative portals for admissions, student
+    management, finance, faculty, and other university operations.
+  </p>
 
-          <div className="space-y-4 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
-            <p>1. Finding relevant course information quickly.</p>
-            <p>2. Navigating complex admission processes.</p>
-            <p>3. Tracking application status efficiently.</p>
-            <p>4. Accessing academic resources from multiple locations.</p>
-            <p>5. Managing schedules, fees, and announcements seamlessly.</p>
-          </div>
+  {/* CHALLENGE */}
+  <h2 className="text-4xl md:text-5xl lg:text-[56px] mt-16 mb-8 font-normal text-[#111111] tracking-tight">
+    Challenge
+  </h2>
 
-          <p className="mt-8 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
-            <span className="font-bold text-[#111111]">Main goal:</span> Design a seamless
-            university experience that enables prospective students to explore
-            programs, apply for admission, track their application status, while
-            allowing enrolled students to manage courses, access academic
-            resources, pay fees, and stay connected with the university from a
-            single platform.
-          </p>
-        </div>
+  <div className="space-y-4 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
+    <p>1. Finding relevant course information quickly.</p>
+    <p>2. Navigating complex admission processes.</p>
+    <p>3. Tracking application status efficiently.</p>
+    <p>4. Accessing academic resources from multiple locations.</p>
+    <p>5. Managing schedules, fees, and announcements seamlessly.</p>
+  </div>
+
+  <p className="mt-8 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
+    <span className="font-bold text-[#111111]">Main goal:</span> Design a
+    seamless university experience that enables prospective students to
+    explore programs, apply for admission, track their application status,
+    while allowing enrolled students to manage courses, access academic
+    resources, pay fees, and stay connected with the university from a
+    single platform.
+  </p>
+</div>
 
         {        /* RIGHT IMAGE (MAC LAPTOP MOCKUP) */}
         <div className="flex flex-col justify-center items-center w-full mt-10 lg:mt-0">
@@ -682,60 +694,60 @@ export default function Babanawauniversity() {
 
           {/* Group 1: Phone Number Bubbles */}
           <div 
-            className="absolute bg-[#006D36] text-white rounded-full flex flex-col items-center justify-center p-2 z-10 shadow-sm transition-transform hover:scale-105 duration-300 w-[26%] aspect-square"
+            className="absolute bg-[#02346D] text-white rounded-full flex flex-col items-center justify-center p-2 z-10 shadow-sm transition-transform hover:scale-105 duration-300 w-[26%] aspect-square"
             style={{ left: '35%', top: '35%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="font-semibold text-sm md:text-lg text-center leading-tight">Select<br/>Doctor</span>
+            <span className="font-semibold text-sm md:text-lg text-center leading-tight">Program <br/>Selection</span>
           </div>
 
           <div 
             className="absolute bg-[#E6E6E6] text-[#333333] rounded-full flex items-center justify-center p-3 z-10 shadow-sm w-[18%] aspect-square"
             style={{ left: '48%', top: '14%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="text-[9px] md:text-[11px] text-center leading-tight">Automatically recommends a specialty or doctor based on symptoms.<br/>identified</span>
+            <span className="text-[9px] md:text-[11px] text-center leading-tight">Which faculty or department</span>
           </div>
 
           <div 
             className="absolute bg-[#E6E6E6] text-[#333333] rounded-full flex items-center justify-center p-3 z-10 shadow-sm w-[18%] aspect-square"
             style={{ left: '18%', top: '38%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="text-[9px] md:text-[11px] text-center leading-tight">Quickly book a previous doctor.</span>
+            <span className="text-[9px] md:text-[11px] text-center leading-tight">Admission requirements</span>
           </div>
 
           <div 
             className="absolute bg-[#E6E6E6] text-[#333333] rounded-full flex items-center justify-center p-3 z-10 shadow-sm w-[18%] aspect-square"
             style={{ left: '35%', top: '58%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="text-[9px] md:text-[11px] text-center leading-tight">Automatically recommends a specialty or doctor based on symptoms.</span>
+            <span className="text-[9px] md:text-[11px] text-center leading-tight">Tuition fees & scholarships</span>
           </div>
 
           {/* Group 2: Amount Deposited Bubbles */}
           <div 
-            className="absolute bg-[#006D36] text-white rounded-full flex flex-col items-center justify-center p-2 z-10 shadow-sm transition-transform hover:scale-105 duration-300 w-[28%] aspect-square"
+            className="absolute bg-[#02346D] text-white rounded-full flex flex-col items-center justify-center p-2 z-10 shadow-sm transition-transform hover:scale-105 duration-300 w-[28%] aspect-square"
             style={{ left: '68%', top: '62%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="font-semibold text-sm md:text-lg text-center leading-tight">Payment & Confirmation</span>
+            <span className="font-semibold text-sm md:text-lg text-center leading-tight">Application deadline</span>
           </div>
 
           <div 
             className="absolute bg-[#E6E6E6] text-[#333333] rounded-full flex items-center justify-center p-3 z-10 shadow-sm w-[18%] aspect-square"
             style={{ left: '80%', top: '40%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="text-[9px] md:text-[11px] text-center leading-tight">The base fee is determined by how the user wants to conduct the visit.</span>
+            <span className="text-[9px] md:text-[11px] text-center leading-tight">Required documents</span>
           </div>
 
           <div 
             className="absolute bg-[#E6E6E6] text-[#333333] rounded-full flex items-center justify-center p-3 z-10 shadow-sm w-[18%] aspect-square"
             style={{ left: '90%', top: '62%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="text-[9px] md:text-[11px] text-center leading-tight">Checks linked HMO for consultation coverage.</span>
+            <span className="text-[9px] md:text-[11px] text-center leading-tight">Application status tracking</span>
           </div>
 
           <div 
             className="absolute bg-[#E6E6E6] text-[#333333] rounded-full flex items-center justify-center p-3 z-10 shadow-sm w-[18%] aspect-square"
             style={{ left: '80%', top: '82%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="text-[9px] md:text-[11px] text-center leading-tight">Applied discounts and wallet balance.</span>
+            <span className="text-[9px] md:text-[11px] text-center leading-tight">Admission notification & next steps.</span>
           </div>
 
         </div>

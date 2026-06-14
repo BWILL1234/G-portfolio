@@ -78,16 +78,14 @@ export default function BentoPortfolio() {
       <div className="bg-[#FF7A00] rounded-3xl p-10 mb-6">
         <h1 className="text-5xl md:text-6xl font-semibold text-black leading-tight"
         style={{
-                    fontFamily: "Bricolage Grotesque",
+                    fontFamily: "Protest Revolution",
                   }}
         >
           Selected <br />
           <span className="italic font-light">Projects</span>
         </h1>
         <p className="mt-4 text-black max-w-xl font-medium"
-        style={{
-                    fontFamily: "Bricolage Grotesque",
-                  }}
+
         >
           A curated selection of products I’ve designed — focused on clarity,
           usability, and purposeful experiences.
@@ -110,6 +108,17 @@ export default function BentoPortfolio() {
         fill
         className="object-cover"
       />
+
+       <a
+    href="https://your-jebota-url.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 mt-4 px-4 py-2 rounded-full bg-white text-[#006D36] text-sm font-semibold hover:opacity-90 transition"
+    onClick={(e) => e.stopPropagation()}
+  >
+    Visit Website ↗
+  </a>
+  
     </div>
 
     <div className="flex justify-between items-start">
@@ -127,7 +136,7 @@ export default function BentoPortfolio() {
         {/* Project 2 */}
            <Link href="/projects/medxverse"className="group md:col-span-6 block"
 >
-        <div className="md:col-span-6 bg-[#262626] rounded-3xl p-6 flex flex-col group text-white">
+        <div className="md:col-span-6 bg-[#1D2264] rounded-3xl p-6 flex flex-col group text-white">
           <div className="relative w-full h-64 rounded-2xl overflow-hidden mb-6">
             <Image src="/me.png" alt="me" fill className="object-cover" />
           </div>
@@ -168,7 +177,7 @@ export default function BentoPortfolio() {
 >   
         <div className="md:col-span-8 bg-[#960018] rounded-3xl p-6 flex flex-col justify-between group">
           <div className="relative w-full h-56 rounded-2xl overflow-hidden mb-4">
-            <Image src="/bli.png" alt="bli" fill className="object-cover" />
+            <Image src="/bv2.png" alt="bli" fill className="object-cover" />
           </div>
           <div className="flex justify-between items-end">
             <div>

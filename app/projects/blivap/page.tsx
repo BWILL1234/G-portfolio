@@ -24,44 +24,58 @@ export default function Blivap() {
 
         {        /* LEFT CONTENT */}
         <div className="pr-0 lg:pr-8">
-          <h1 className="text-4xl md:text-5xl lg:text-[56px] font-normal text-[#111111] tracking-tight mb-8">
-            Overview
-          </h1>
+  {/* Overview Heading + Website Link */}
+  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8 gap-4">
+    <h1 className="text-4xl md:text-5xl lg:text-[56px] font-normal text-[#111111] tracking-tight">
+      Overview
+    </h1>
 
-          <p className="text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
-            Blivap is a digital blood and sperm donation platform designed to connect donors, recipients, 
-            healthcare facilities, and fertility clinics through a secure and accessible experience. 
-            The platform simplifies the process of finding verified donors, requesting donations, scheduling 
-            appointments, and tracking donation status while maintaining privacy and trust throughout the journey.
-          </p>
+    <a
+      href="https://blivap.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-[#111111] text-white text-sm font-medium hover:bg-[#333333] transition-colors w-fit"
+    >
+      Visit Website ↗
+    </a>
+  </div>
 
-          <p className="mt-6 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
-            This project focuses on designing a modern healthcare platform that streamlines the entire donation 
-            process—from searching for compatible donors and viewing eligibility information to booking appointments 
-            and managing requests. I also designed administrative dashboards for donor verification, request 
-            management, appointment scheduling, and platform monitoring.
-          </p>
+  <p className="text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
+    Blivap is a digital blood and sperm donation platform designed to connect donors, recipients,
+    healthcare facilities, and fertility clinics through a secure and accessible experience.
+    The platform simplifies the process of finding verified donors, requesting donations,
+    scheduling appointments, and tracking donation status while maintaining privacy and trust
+    throughout the journey.
+  </p>
 
-          {          /* CHALLENGE */}
-          <h2 className="text-4xl md:text-5xl lg:text-[56px] mt-16 mb-8 font-normal text-[#111111] tracking-tight">
-            Challenge
-          </h2>
+  <p className="mt-6 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
+    This project focuses on designing a modern healthcare platform that streamlines the entire
+    donation process—from searching for compatible donors and viewing eligibility information to
+    booking appointments and managing requests. I also designed administrative dashboards for
+    donor verification, request management, appointment scheduling, and platform monitoring.
+  </p>
 
-          <div className="space-y-4 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
-            <p>1. Finding verified and trustworthy blood or sperm donors quickly.</p>
-            <p>2. Navigating a complex and often stressful donation process.</p>
-            <p>3. Accessing clear eligibility requirements and donor information.</p>
-            <p>4. Scheduling appointments and tracking donation requests efficiently.</p>
-            <p>5. Building trust while protecting the privacy and security of both donors and recipients.</p>
-          </div>
+  {/* CHALLENGE */}
+  <h2 className="text-4xl md:text-5xl lg:text-[56px] mt-16 mb-8 font-normal text-[#111111] tracking-tight">
+    Challenge
+  </h2>
 
-          <p className="mt-8 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
-            <span className="font-bold text-[#111111]">Main goal:</span> Design a seamless donation 
-            platform that enables users to search for verified blood and sperm donors, submit donation 
-            requests, schedule appointments, communicate securely, and track the entire process from a 
-            single, intuitive platform while ensuring transparency, privacy, and a user-centered experience.
-          </p>
-        </div>
+  <div className="space-y-4 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
+    <p>1. Finding verified and trustworthy blood or sperm donors quickly.</p>
+    <p>2. Navigating a complex and often stressful donation process.</p>
+    <p>3. Accessing clear eligibility requirements and donor information.</p>
+    <p>4. Scheduling appointments and tracking donation requests efficiently.</p>
+    <p>5. Building trust while protecting the privacy and security of both donors and recipients.</p>
+  </div>
+
+  <p className="mt-8 text-[15px] md:text-[17px] leading-[1.6] text-[#222222]">
+    <span className="font-bold text-[#111111]">Main goal:</span> Design a seamless donation
+    platform that enables users to search for verified blood and sperm donors, submit donation
+    requests, schedule appointments, communicate securely, and track the entire process from a
+    single, intuitive platform while ensuring transparency, privacy, and a user-centered
+    experience.
+  </p>
+</div>
 
         {        /* RIGHT IMAGE (MAC LAPTOP MOCKUP) */}
         <div className="flex flex-col justify-center items-center w-full mt-10 lg:mt-0">
@@ -230,7 +244,7 @@ export default function Blivap() {
         
         {/* REPLACE THIS IMAGE */}
         <Image
-          src="/admis.png"
+          src="/don.png"
           alt="coon"
           fill
           className="object-contain"
@@ -383,37 +397,37 @@ export default function Blivap() {
         <div className="w-full lg:w-1/2 relative aspect-square max-w-[600px] mx-auto mt-12 lg:mt-0">
           
           {/* Main Bubble 1 (Top Left) */}
-          <div className="absolute top-[3%] object-cover opacity-60 left-[8%] w-[42%] aspect-square rounded-full bg-[#02346D] flex items-center justify-center p-6 text-center text-white shadow-sm z-10 transition-transform hover:scale-105 duration-300">
+          <div className="absolute top-[3%] object-cover opacity-60 left-[8%] w-[42%] aspect-square rounded-full bg-[#960018] flex items-center justify-center p-6 text-center text-white shadow-sm z-10 transition-transform hover:scale-105 duration-300">
             <p className="text-sm md:text-base lg:text-lg font-medium leading-snug">
-              I don't know which program or course is the best fit for my career goals
+              I need a trusted place to donate.
             </p>
           </div>
 
           {/* Main Bubble 2 (Middle Right) */}
-          <div className="absolute top-[30%] right-[3%] w-[38%] aspect-square rounded-full bg-[#02346D] flex items-center justify-center p-6 text-center text-white shadow-sm z-20 transition-transform hover:scale-105 duration-300">
+          <div className="absolute top-[30%] right-[3%] w-[38%] aspect-square rounded-full bg-[#960018] flex items-center justify-center p-6 text-center text-white shadow-sm z-20 transition-transform hover:scale-105 duration-300">
             <p className="text-sm md:text-base lg:text-lg font-medium leading-snug">
-              When my application status changes, I'm not notified quickly enough to take the next step.
+              Finding a matching donor takes too long.
             </p>
           </div>
 
           {/* Main Bubble 3 (Bottom Left) */}
-          <div className="absolute bottom-[20%] object-cover opacity-60 left-[8%] w-[38%] aspect-square rounded-full bg-[#02346D] flex items-center justify-center p-5 text-center text-white shadow-sm z-10 transition-transform hover:scale-105 duration-300">
+          <div className="absolute bottom-[20%] object-cover opacity-60 left-[8%] w-[38%] aspect-square rounded-full bg-[#960018] flex items-center justify-center p-5 text-center text-white shadow-sm z-10 transition-transform hover:scale-105 duration-300">
             <p className="text-xs md:text-sm lg:text-base font-medium leading-snug">
-              I want to know the tuition fees, admission requirements, and application deadlines before applying.
+              I want clear donation requirements.
             </p>
           </div>
 
           {/* Main Bubble 4 (Bottom Right) */}
-          <div className="absolute bottom-[5%] object-cover opacity-60 right-[18%] w-[34%] aspect-square rounded-full bg-[#02346D] flex items-center justify-center p-5 text-center text-white shadow-sm z-10 transition-transform hover:scale-105 duration-300">
+          <div className="absolute bottom-[5%] object-cover opacity-60 right-[18%] w-[34%] aspect-square rounded-full bg-[#960018] flex items-center justify-center p-5 text-center text-white shadow-sm z-10 transition-transform hover:scale-105 duration-300">
             <p className="text-xs md:text-sm lg:text-sm font-medium leading-snug">
-              It's difficult to keep my courses, timetable, fee payments, results, and academic records organized in one place.
+              I need all my donation records in one place.
             </p>
           </div>
 
           {/* Decorative Bubbles (Light Peach) */}
-          <div className="absolute top-[12%] right-[12%] w-[18%] aspect-square rounded-full bg-[#02346D] opacity-60 z-0"></div>
-          <div className="absolute top-[42%] left-[3%] w-[10%] aspect-square rounded-full bg-[#02346D] opacity-60 z-0"></div>
-          <div className="absolute bottom-[30%] right-[8%] w-[5%] aspect-square rounded-full bg-[#02346D] opacity-60 z-0"></div>
+          <div className="absolute top-[12%] right-[12%] w-[18%] aspect-square rounded-full bg-[#960018] opacity-60 z-0"></div>
+          <div className="absolute top-[42%] left-[3%] w-[10%] aspect-square rounded-full bg-[#960018] opacity-60 z-0"></div>
+          <div className="absolute bottom-[30%] right-[8%] w-[5%] aspect-square rounded-full bg-[#960018] opacity-60 z-0"></div>
           
         </div>
         
@@ -459,10 +473,10 @@ export default function Blivap() {
               />
               <div>
                 <h2 className="text-2xl md:text-3xl font-semibold text-[#02346D] mb-1">
-                  Amina
+                  Jenny Pham
                 </h2>
                 <p className="text-gray-500 text-sm md:text-base">
-                  19 years old | First-year Applicant
+                  27 years old | Blood Donor
                 </p>
               </div>
             </div>
@@ -475,15 +489,15 @@ export default function Blivap() {
                 Needs:
               </h3>
               <p className="text-[#222222] text-sm md:text-[15px] leading-relaxed">
-                A simple way to explore programs and apply for admission online.
+                A simple way to find verified donation centers.
               </p>
 
               <p className="text-[#222222] text-sm md:text-[15px] leading-relaxed">
-                Easy access to academic resources, course registration, and student information.
+                Easy appointment booking and donation tracking.
               </p>
 
               <p className="text-[#222222] text-sm md:text-[15px] leading-relaxed">
-               A centralized platform for managing schedules, fees, results, and campus updates.
+               One place to manage eligibility, history, and notifications.
                 </p>
             </div>
 
@@ -494,13 +508,13 @@ export default function Blivap() {
               </h3>
               <div className="space-y-4 text-[#222222] text-sm md:text-[15px] leading-relaxed">
                 <p>
-                 Difficulty finding accurate course and admission information.
+                 Difficulty finding trusted donation facilities.
                 </p>
                 <p>
-                  Lengthy and confusing application or registration processes.
+                  Unclear donation requirements and eligibility rules.
                 </p>
                 <p>
-                  Academic records, payments, and announcements spread across multiple systems.
+                  Health records and appointment updates scattered across different platforms.
                 </p>
               </div>
             </div>
@@ -557,13 +571,13 @@ export default function Blivap() {
               Unattractive Look
             </h3>
             <div className="bg-[#FDF288] p-4 text-center text-[13px] text-[#222222] leading-snug shadow-sm">
-              The UI is not aligned with the university brand.
+              Verification is too lengthy
             </div>
             <div className="bg-[#FDF288] p-4 text-center text-[13px] text-[#222222] leading-snug shadow-sm">
-              The interface feels outdated and cluttered.
+              Navigation feels crowded
             </div>
             <div className="bg-[#FDF288] p-4 text-center text-[13px] text-[#222222] leading-snug shadow-sm">
-              Navigation is inconsistent across pages.
+             Donation steps are unclear
             </div>
           </div>
 
@@ -573,13 +587,13 @@ export default function Blivap() {
               Confusing Flow
             </h3>
             <div className="bg-[#FDF288] p-4 text-center text-[13px] text-[#222222] leading-snug shadow-sm">
-              Admission requirements are difficult to find.
+              Donor eligibility isn't confirmed early
             </div>
             <div className="bg-[#FDF288] p-4 text-center text-[13px] text-[#222222] leading-snug shadow-sm">
-              Users are unsure where to start their application.
+              Users struggle to find verified donors
             </div>
             <div className="bg-[#FDF288] p-4 text-center text-[13px] text-[#222222] leading-snug shadow-sm">
-             Fee payment and registration steps are unclear.
+             Compensation and fees aren't clearly explained
             </div>
           </div>
 
@@ -589,10 +603,10 @@ export default function Blivap() {
               Impractical To Use
             </h3>
             <div className="bg-[#FDF288] p-4 text-center text-[13px] text-[#222222] leading-snug shadow-sm">
-            Too many steps are required to complete an application.
+            Too many steps to complete a donation request
             </div>
             <div className="bg-[#FDF288] p-4 text-center text-[13px] text-[#222222] leading-snug shadow-sm">
-              Finding courses and academic information takes too much time.
+              Finding a suitable donor takes too much time
             </div>
           </div>
 
@@ -602,16 +616,16 @@ export default function Blivap() {
               Forced To Use
             </h3>
             <div className="bg-[#FDF288] p-4 text-center text-[13px] text-[#222222] leading-snug shadow-sm">
-              Enter Personal Information
+              Select Donation
             </div>
             <div className="bg-[#FDF288] p-4 text-center text-[13px] text-[#222222] leading-snug shadow-sm">
-              Upload Documents
+              Complete Verification
             </div>
             <div className="bg-[#FDF288] p-4 text-center text-[13px] text-[#222222] leading-snug shadow-sm">
-              Pay Application Fee
+              Choose Donor
             </div>
             <div className="bg-[#FDF288] p-4 text-center text-[13px] text-[#222222] leading-snug shadow-sm">
-            Submit Application
+            Confirm Request
             </div>
           </div>
 
@@ -681,60 +695,60 @@ export default function Blivap() {
 
           {/* Group 1: Phone Number Bubbles */}
           <div 
-            className="absolute bg-[#006D36] text-white rounded-full flex flex-col items-center justify-center p-2 z-10 shadow-sm transition-transform hover:scale-105 duration-300 w-[26%] aspect-square"
+            className="absolute bg-[#960018] text-white rounded-full flex flex-col items-center justify-center p-2 z-10 shadow-sm transition-transform hover:scale-105 duration-300 w-[26%] aspect-square"
             style={{ left: '35%', top: '35%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="font-semibold text-sm md:text-lg text-center leading-tight">Select<br/>Doctor</span>
+            <span className="font-semibold text-sm md:text-lg text-center leading-tight">Donor Type</span>
           </div>
 
           <div 
             className="absolute bg-[#E6E6E6] text-[#333333] rounded-full flex items-center justify-center p-3 z-10 shadow-sm w-[18%] aspect-square"
             style={{ left: '48%', top: '14%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="text-[9px] md:text-[11px] text-center leading-tight">Automatically recommends a specialty or doctor based on symptoms.<br/>identified</span>
+            <span className="text-[9px] md:text-[11px] text-center leading-tight">Blood donor / Sperm donor</span>
           </div>
 
           <div 
             className="absolute bg-[#E6E6E6] text-[#333333] rounded-full flex items-center justify-center p-3 z-10 shadow-sm w-[18%] aspect-square"
             style={{ left: '18%', top: '38%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="text-[9px] md:text-[11px] text-center leading-tight">Quickly book a previous doctor.</span>
+            <span className="text-[9px] md:text-[11px] text-center leading-tight">Verified donor status.</span>
           </div>
 
           <div 
             className="absolute bg-[#E6E6E6] text-[#333333] rounded-full flex items-center justify-center p-3 z-10 shadow-sm w-[18%] aspect-square"
             style={{ left: '35%', top: '58%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="text-[9px] md:text-[11px] text-center leading-tight">Automatically recommends a specialty or doctor based on symptoms.</span>
+            <span className="text-[9px] md:text-[11px] text-center leading-tight">Available for donation.</span>
           </div>
 
           {/* Group 2: Amount Deposited Bubbles */}
           <div 
-            className="absolute bg-[#006D36] text-white rounded-full flex flex-col items-center justify-center p-2 z-10 shadow-sm transition-transform hover:scale-105 duration-300 w-[28%] aspect-square"
+            className="absolute bg-[#960018] text-white rounded-full flex flex-col items-center justify-center p-2 z-10 shadow-sm transition-transform hover:scale-105 duration-300 w-[28%] aspect-square"
             style={{ left: '68%', top: '62%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="font-semibold text-sm md:text-lg text-center leading-tight">Payment & Confirmation</span>
+            <span className="font-semibold text-sm md:text-lg text-center leading-tight">Location</span>
           </div>
 
           <div 
             className="absolute bg-[#E6E6E6] text-[#333333] rounded-full flex items-center justify-center p-3 z-10 shadow-sm w-[18%] aspect-square"
             style={{ left: '80%', top: '40%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="text-[9px] md:text-[11px] text-center leading-tight">The base fee is determined by how the user wants to conduct the visit.</span>
+            <span className="text-[9px] md:text-[11px] text-center leading-tight">Current city.</span>
           </div>
 
           <div 
             className="absolute bg-[#E6E6E6] text-[#333333] rounded-full flex items-center justify-center p-3 z-10 shadow-sm w-[18%] aspect-square"
             style={{ left: '90%', top: '62%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="text-[9px] md:text-[11px] text-center leading-tight">Checks linked HMO for consultation coverage.</span>
+            <span className="text-[9px] md:text-[11px] text-center leading-tight">Nearby donation center.</span>
           </div>
 
           <div 
             className="absolute bg-[#E6E6E6] text-[#333333] rounded-full flex items-center justify-center p-3 z-10 shadow-sm w-[18%] aspect-square"
             style={{ left: '80%', top: '82%', transform: 'translate(-50%, -50%)' }}
           >
-            <span className="text-[9px] md:text-[11px] text-center leading-tight">Applied discounts and wallet balance.</span>
+            <span className="text-[9px] md:text-[11px] text-center leading-tight">Distance from recipient.</span>
           </div>
 
         </div>
