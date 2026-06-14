@@ -147,7 +147,7 @@ export default function BentoPortfolio() {
 <div className="md:col-span-4 bg-[#02346D] rounded-3xl p-6 flex flex-col justify-between group">
   <div>
     <div className="relative w-full h-56 rounded-2xl overflow-hidden mb-4">
-      <Image src="/cover-picture.png" alt="uni" fill className="object-cover" />
+      <Image src="/coverpicture.png" alt="uni" fill className="object-cover" />
     </div>
 
     <h3 className="text-xl font-semibold text-white">
