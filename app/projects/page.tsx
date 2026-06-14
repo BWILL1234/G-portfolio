@@ -108,17 +108,7 @@ export default function BentoPortfolio() {
         fill
         className="object-cover"
       />
-
-       <a
-    href="https://your-jebota-url.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center gap-2 mt-4 px-4 py-2 rounded-full bg-white text-[#006D36] text-sm font-semibold hover:opacity-90 transition"
-    onClick={(e) => e.stopPropagation()}
-  >
-    Visit Website ↗
-  </a>
-  
+      
     </div>
 
     <div className="flex justify-between items-start">
@@ -157,7 +147,7 @@ export default function BentoPortfolio() {
 <div className="md:col-span-4 bg-[#02346D] rounded-3xl p-6 flex flex-col justify-between group">
   <div>
     <div className="relative w-full h-56 rounded-2xl overflow-hidden mb-4">
-      <Image src="/cover picture.png" alt="uni" fill className="object-cover" />
+      <Image src="/cover-picture.png" alt="uni" fill className="object-cover" />
     </div>
 
     <h3 className="text-xl font-semibold text-white">
