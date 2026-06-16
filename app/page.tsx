@@ -7,7 +7,6 @@ import {
   ArrowUpRight,
   Instagram,
   Linkedin,
-  Twitter,
   MessageCircle,
   Menu,
   X,
@@ -22,11 +21,11 @@ export default function BentoPortfolio() {
       <nav className="relative flex justify-between items-center bg-[#FF7A00] rounded-2xl px-6 md:px-8 py-6 mb-4">
         {/* Logo */}
         <Link
-          href="/home"
-          className="text-xl font-bold tracking-tight text-black hover:opacity-70"
-        >
-          GODSWILL <span className="font-normal opacity-80">IKPEAMAH</span>
-        </Link>
+  href="/"
+  className="text-xl font-bold tracking-tight text-black hover:opacity-70"
+>
+  GODSWILL <span className="font-normal opacity-80">IKPEAMAH</span>
+</Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8 font-medium text-black text-sm">
@@ -167,31 +166,159 @@ export default function BentoPortfolio() {
   </div>
 </div>
 
-        {/* Bio Card */}
-        <div className="md:col-span-4 bg-[#FF7A00] rounded-3xl p-8 flex flex-col justify-between">
-          <p className="text-lg leading-relaxed text-black font-medium"
-          >
-            Godswill Ikpeamah is a Senior UI/UX Designer crafting intuitive digital experiences at the intersection of emerging technology and human-centered design. He builds scalable digital solutions that connect users worldwide
-          </p>
-        </div>
-
-        {/* Contact Card */}
-<Link href="/contact" className="md:col-span-4">
-  <div className="bg-[#262626] text-white rounded-3xl p-8 flex flex-col justify-between group cursor-pointer h-full">
-    <div className="flex justify-between items-start">
-      <p className="text-sm">
-        Have some
-        <br />
-        questions?
-      </p>
-      <ArrowUpRight
-        size={32}
-        className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
-      />
-    </div>
-    <h3 className="text-5xl font-bold">Contact me</h3>
+      
+{/* Featured Projects Section */}
+<div className="md:col-span-12">
+  <div className="mb-6">
+    <h2 className="text-4xl font-bold text-black">Featured Projects</h2>
+    <p className="text-black/60 mt-2">
+      A selection of products I've designed and shipped.
+    </p>
   </div>
-</Link>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+    {/* MedxVerse */}
+    <div className="bg-[#FF7A00] rounded-3xl overflow-hidden flex flex-col group">
+      <div className="relative h-56 overflow-hidden">
+        <Image
+          src="/me.png"
+          alt="MedxVerse"
+          fill
+          className="object-cover group-hover:scale-105 transition-transform duration-500"
+        />
+      </div>
+
+      <div className="p-6 flex flex-col flex-1">
+        <span className="text-sm uppercase opacity-70">
+          Healthcare Ecosystem
+        </span>
+
+        <h3 className="text-3xl font-bold mt-2">
+          MedxVerse
+        </h3>
+
+        <p className="text-black/70 mt-4 flex-1">
+          A digital healthcare platform connecting patients with hospitals,
+          pharmacies, laboratories and healthcare professionals through one
+          seamless experience.
+        </p>
+
+        <div className="flex gap-3 mt-6">
+          <Link
+            href="/projects/medxverse"
+            className="flex-1 bg-black text-white text-center py-3 rounded-full font-medium hover:opacity-90 transition"
+          >
+            Case Study
+          </Link>
+
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 border border-black text-black text-center py-3 rounded-full font-medium hover:bg-black hover:text-white transition"
+          >
+            Live Site ↗
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {/* Jebota */}
+    <div className="bg-[#262626] text-white rounded-3xl overflow-hidden flex flex-col group">
+      <div className="relative h-56 overflow-hidden">
+        <Image
+          src="/jebota-case.png"
+          alt="Jebota"
+          fill
+          className="object-cover group-hover:scale-105 transition-transform duration-500"
+        />
+      </div>
+
+      <div className="p-6 flex flex-col flex-1">
+        <span className="text-sm uppercase opacity-70">
+          
+        </span>
+
+        <h3 className="text-3xl font-bold mt-2">
+          Jebota
+        </h3>
+        Digital Market 
+        <p className="text-white/70 mt-4 flex-1">
+          Jebota is a marketplace shopping and delivery platform that 
+          connects customers with local markets through personal shoppers. 
+          Users can browse markets, select products, communicate directly with 
+          assigned shoppers, and receive their purchases at their doorstep.
+        </p>
+
+        <div className="flex gap-3 mt-6">
+          <Link
+            href="/projects/jebota"
+            className="flex-1 bg-white text-black text-center py-3 rounded-full font-medium hover:opacity-90 transition"
+          >
+            Case Study
+          </Link>
+
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 border border-white text-white text-center py-3 rounded-full font-medium hover:bg-white hover:text-black transition"
+          >
+            Live Site ↗
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {/* Blivap */}
+    <div className="bg-[#FF7A00] rounded-3xl overflow-hidden flex flex-col group">
+      <div className="relative h-56 overflow-hidden">
+        <Image
+          src="/bv2.png"
+          alt="Blivap"
+          fill
+          className="object-cover group-hover:scale-105 transition-transform duration-500"
+        />
+      </div>
+
+      <div className="p-6 flex flex-col flex-1">
+        <span className="text-sm uppercase opacity-70">
+          Health & Donation Platform
+        </span>
+
+        <h3 className="text-3xl font-bold mt-2">
+          Blivap
+        </h3>
+
+        <p className="text-black/70 mt-4 flex-1">
+          A secure blood and sperm donation platform that connects verified
+          donors with recipients while simplifying donations and improving
+          access to life-saving and fertility resources.
+        </p>
+
+        <div className="flex gap-3 mt-6">
+          <Link
+            href="/projects/blivap"
+            className="flex-1 bg-black text-white text-center py-3 rounded-full font-medium hover:opacity-90 transition"
+          >
+            Case Study
+          </Link>
+
+          <a
+            href="https://blivap.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 border border-black text-black text-center py-3 rounded-full font-medium hover:bg-black hover:text-white transition"
+          >
+            Live Site ↗
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 
         {/* Socials */}

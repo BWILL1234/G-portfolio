@@ -17,11 +17,11 @@ export default function BentoPortfolio() {
             <nav className="relative flex justify-between items-center bg-[#FF7A00] rounded-2xl px-6 md:px-8 py-6 mb-4">
               {/* Logo */}
               <Link
-                href="/home"
-                className="text-xl font-bold tracking-tight text-black hover:opacity-70"
-              >
-                GODSWILL <span className="font-normal opacity-80">IKPEAMAH</span>
-              </Link>
+  href="/"
+  className="text-xl font-bold tracking-tight text-black hover:opacity-70"
+>
+  GODSWILL <span className="font-normal opacity-80">IKPEAMAH</span>
+</Link>
       
               {/* Desktop Menu */}
               <div className="hidden md:flex gap-8 font-medium text-black text-sm">
