@@ -213,7 +213,7 @@ export default function BentoPortfolio() {
           </Link>
 
           <a
-            href=""
+            href="https://medxverseapp.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 border border-black text-black text-center py-3 rounded-full font-medium hover:bg-black hover:text-white transition"
