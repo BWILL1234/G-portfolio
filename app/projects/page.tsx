@@ -271,7 +271,7 @@ export default function BentoPortfolio() {
                 </h3>
 
                 <p className="text-[#666666] mt-1">
-                  Lead Designer
+                  Co-Founder
                 </p>
 
               </div>
